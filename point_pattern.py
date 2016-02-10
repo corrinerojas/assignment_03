@@ -50,7 +50,7 @@ def euclidean_distance(a, b):
     distance : float
                The Euclidean distance between the two points
     """
-    distance = sqrt((a[0]-b[0])**2+(a[1]-b[1])**2)
+    distance = math.sqrt((a[0]-b[0])**2+(a[1]-b[1])**2)
     return distance
 
 
